@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>REGISTRO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div>
+    <form method="post">
+        <label for="nombre">Nombre: </label> <br>
+        <input type="text" name="nombre" placeholder="Nombre: ">
+        <br>
+        <label for="apellido">Usuario: </label> <br>
+        <input type="text" name="apellido" placeholder="Usuario: ">
+        <br>
+        <label for="telefono">Telefono: </label> <br>
+        <input type="number" name="telefono" placeholder="Telefono: ">
+        <br>
+        <label for="correo">Correo Electronico:</label> <br>
+        <input type="email" name="correo" placeholder="Correo Electronico: " required>
+        <br>
+        <label for="contraseña">Contraseña: </label> <br>
+        <input type="password" name="contraseña" placeholder="Contraseña: " required>
+        <br>
+        <label for="date">Fecha de Nacimiento:</label><br>
+        <input type="date" name="Cumpleaños" placeholder="Fecha">
+        <br>
+        <label for="genero">Genero: </label> <br>
+        <label class="mujer" for="mujer">Mujer: </label>
+        <input type="radio" name="genero" placeholder="Genero: ">
+        <label class="hombre" for="hombre">Hombre: </label>
+        <input type="radio" name="hombre" placeholder="Hombre: ">
+        <br>
+        <input class="button" type="submit" value="Unete">
+    </div>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
+    </div>
+    </form>
+    <footer>
+    </footer>
+</body>
+</html>

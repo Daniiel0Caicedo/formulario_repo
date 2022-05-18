@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../images/592085.jpg");
+    background-size: cover;
+    height: 99.9vh;
+}
+
+.logo img {
+ width: 290px;
+ justify-content: center;
+ display: flex;
+ float: right;
+}
+
+.heat{
+    width: 100vw;
+    height: 16vh;
+    background: linear-gradient(#131212, #03000f);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+header p {
+    color: #ffffff
+}
+
+header h1 {
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    
+}
+aside {
+    width: 50vw;
+    height: 63vh;
+    display: flex;
+    border: solid 5px #000000;
+    background: url("../images/132-1327074_4k-ultra-wallpaper-world-of-warcraft-4k.jpg");
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+span{
+    font-size: 20px;
+}
+
+/* #registro {
+   display: flex;
+   color: white;
+   justify-content: right;
+} */
+
+nav ul li a{
+    text-decoration: none;
+    background: linear-gradient(#020231,#fafaff);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 35px;
+    display: flex;
+    font-family: 'Rubik Glitch', cursive;
+    text-align: center;
+
+}
+
